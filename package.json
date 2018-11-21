@@ -53,7 +53,9 @@
     "webpack-md5-hash": "0.0.5"
   },
   "scripts": {
-    "prestart": "node ./app/startMessage.js",
-    "start": "node ./app/server.js"
+    "prestart": "babel-node ./app/startMessage.js",
+    "start": "npm-run-all --parallel open:src share",
+    "open:src": "babel-node ./app/server.js",
+    "share": "lt --port 3000 --subdomain alper"
   }
 }
