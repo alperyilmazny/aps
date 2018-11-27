@@ -53,9 +53,13 @@
     "webpack-md5-hash": "0.0.5"
   },
   "scripts": {
-    "prestart": "babel-node ./app/startMessage.js",
-    "start": "npm-run-all --parallel open:src share",
-    "open:src": "babel-node ./app/server.js",
-    "share": "lt --port 3000 --subdomain alper"
+    "prestart": "babel-node ./app/buildScripts/startMessage.js",
+    "start": "npm-run-all --parallel open:src share lint:watch test:watch",
+    "open:src": "babel-node ./app/buildScripts/server.js",
+    "share": "lt --port 3000 --subdomain alper",
+    "lint": "esw webpack.config.* src app/buildScripts --color",
+    "lint:watch": "npm run lint -- --watch",
+    "test" : "mocha --reporter progress app/buildScripts/testSetup.js \"public/**/*.test.js\"",
+    "test:watch": "npm run test -- --watch"
   }
 }
