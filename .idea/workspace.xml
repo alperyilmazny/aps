@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de6401c8-ec9e-4bd0-8f88-5e36eded7726" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/buildScripts/testSetup.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/buildScripts/testSetup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.dev.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,20 +28,20 @@
         <counts>
           <entry key="babelcrc" value="1" />
           <entry key="babelrc" value="1" />
-          <entry key="css" value="1" />
+          <entry key="css" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
           <entry key="js" value="13" />
-          <entry key="json" value="4" />
+          <entry key="json" value="6" />
           <entry key="md" value="3" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JSON" value="5" />
+          <entry key="JSON" value="7" />
           <entry key="JavaScript" value="13" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="YAML" value="1" />
@@ -56,7 +53,7 @@
           <entry key="babelrc" value="40" />
           <entry key="css" value="42" />
           <entry key="html" value="46" />
-          <entry key="js" value="1938" />
+          <entry key="js" value="1940" />
           <entry key="json" value="691" />
           <entry key="md" value="9" />
           <entry key="yml" value="27" />
@@ -67,7 +64,7 @@
           <entry key="CSS" value="42" />
           <entry key="HTML" value="46" />
           <entry key="JSON" value="731" />
-          <entry key="JavaScript" value="1938" />
+          <entry key="JavaScript" value="1940" />
           <entry key="PLAIN_TEXT" value="47" />
           <entry key="YAML" value="27" />
         </counts>
@@ -79,8 +76,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+            <state relative-caret-position="165">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -103,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/buildScripts/testSetup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="45">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -133,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.config.dev.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
+            <state relative-caret-position="329">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -162,15 +168,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -208,6 +205,10 @@
       <find>babel-node</find>
       <find>loaders</find>
       <find>style</find>
+      <find>6.26.3&quot;</find>
+      <find>&quot;6.26.3</find>
+      <find>6.26.3</find>
+      <find>core</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -224,14 +225,14 @@
         <option value="$PROJECT_DIR$/.eslintrc.json" />
         <option value="$PROJECT_DIR$/app/buildScripts/startMessage.js" />
         <option value="$PROJECT_DIR$/app/buildScripts/server.js" />
-        <option value="$PROJECT_DIR$/app/buildScripts/testSetup.js" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/index.test.js" />
         <option value="$PROJECT_DIR$/public/index.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/buildScripts/testSetup.js" />
       </list>
     </option>
   </component>
@@ -331,12 +332,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542740509356</updated>
-      <workItem from="1542740510543" duration="27390000" />
+      <workItem from="1542740510543" duration="28064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27390000" />
+    <option name="totallyTimeSpent" value="28064000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -389,13 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -421,24 +415,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8084">
-          <caret line="7781" column="32" selection-start-line="7781" selection-start-column="32" selection-end-line="7781" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/buildScripts/testSetup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -490,20 +470,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.dev.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
+        <state relative-caret-position="329">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="1975" column="24" selection-start-line="1975" selection-start-column="18" selection-end-line="1975" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/buildScripts/testSetup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
