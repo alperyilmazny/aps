@@ -20,6 +20,14 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
+app.get('/users', function(req, res) {
+    res.json([
+        {"id":1, "firstName":"Alper", "lastName": "Yilmaz", "email" : "email1"},
+        {"id":2, "firstName":"Alper2", "lastName": "Yilma2", "email" : "email2"},
+        {"id":3, "firstName":"Alper3", "lastName": "Yilmaz3", "email" : "email3"}
+    ]);
+});
+
 app.listen(port, function(err) {
     if (err) {
         console.log(err);
